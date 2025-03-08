@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exercise 4</title>
+
+    <script src="./bootstrap/jquery-3.5.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/popper.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h2 class="fw-bold">Fav Superheroes</h2>
+
+    <hr class="my-3">
+
+    <form class="row g-3 align-items-center mb-4">
+        <div class="col-auto">
+            <label for="xinput">Field 1</label>
+            <input type="text" id="xinput" name="xinput">
+        </div>
+        <div class="col-auto">
+            <label for="yinput">Field 2</label>
+            <select id="yinput" name="yinput">
+                <option>open menu</option>
+                <option>another option</option>
+                <option>woah another option</option>
+            </select>
+        </div>
+        <div class="col-auto d-flex align-items-center">
+            <label for="zinputbox" class="me-2">Field 3</label>
+            <textarea id="zinputbox" name="zinput" rows="4"></textarea>
+        </div>
+        <div class="col-auto mt-4">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+
+    <hr class="my-3">
+
+    <table class="tablecontent">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Superhero Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bruce</td>
+                <td>Wayne</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Selina</td>
+                <td>Kyle</td>
+                <td>Catwoman</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Diana</td>
+                <td>Prince</td>
+                <td>Wonder Woman</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Harleen</td>
+                <td>Quinzel</td>
+                <td>Harley Quinn</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Damian</td>
+                <td>Wayne</td>
+                <td>Robin</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Tony</td>
+                <td>Stark</td>
+                <td>Iron Man</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Steve</td>
+                <td>Rogers</td>
+                <td>Captain America</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Natasha</td>
+                <td>Romanova</td>
+                <td>Black Widow</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Peter</td>
+                <td>Parker</td>
+                <td>Spiderman</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Wanda</td>
+                <td>Maximoff</td>
+                <td>Scarlet Witch</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Wade</td>
+                <td>Wilson</td>
+                <td>Deadpool</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Charles</td>
+                <td>Xavier</td>
+                <td>Professor X</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Susan</td>
+                <td>Richards</td>
+                <td>Invisible Woman</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Yagi</td>
+                <td>Toshinori</td>
+                <td>All Might</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Usagi</td>
+                <td>Tsukino</td>
+                <td>Sailor Moon</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="spiderman.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="deadpool.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="sailormoon.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="prof x.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="batman.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="scarlet witch.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+</body>
+</html>

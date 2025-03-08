@@ -1,0 +1,32 @@
+.z label{
+    align-items: center;
+}
+
+body{
+    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.tablecontent {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    min-width: 840px;
+    font-style:normal;
+}
+.tablecontent thead tr {
+    background-color: rgb(60, 58, 67);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.tablecontent th,
+.tablecontent td {
+    padding: 12px 15px;
+}
+.tablecontent tbody tr{
+    border-bottom: 1px solid gainsboro;
+}
+.tablecontent tbody tr:nth-of-type(odd) {
+    background-color: lightgray;
+}
+
+
